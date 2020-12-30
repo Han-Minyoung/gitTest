@@ -22,6 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="org.iptime.iotmit" />
+	<context:component-scan base-package="org.iptime.iotmit.controller" />
 	
 	
 	
