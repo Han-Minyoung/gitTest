@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="/strcount" method="post">
-	<input type="text" name="str">
+	<textarea name="str" cols="50" rows="10"></textarea> <br />
 	<input type="submit" value="개수세기">
 </form>
 
