@@ -48,7 +48,7 @@ public class HomeController {
 	@PostMapping("/strcount")
 	public String strcount(String str, Model model) {
 		System.out.println(str);
-		model.addAttribute("strCount", str.replaceAll(" ", "").length());
+		model.addAttribute("strCount", str.replaceAll(" ", "").replaceAll("\r\n", "").length());
 		return "/strcount2";
 	}
 	
